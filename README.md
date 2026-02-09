@@ -42,3 +42,22 @@ results = model.predict(
     save=True,
     imgsz=640
 )
+
+## Citation
+
+If you use this work or the YOLOv8m-Pp weights in your research, please cite the original paper:
+
+**APA Style:**
+Hassanudin, W. M., Utomo, V. G., & Apriyanto, R. (2024). Fine-Grained Analysis of Coral Instance Segmentation using YOLOv8 Models. *Sinkron: Jurnal dan Penelitian Teknik Informatika*, 8(2), 1047-1055. https://doi.org/10.33395/sinkron.v8i2.13583
+
+**BibTeX:**
+@article{hassanudin2024fine,
+  title={Fine-Grained Analysis of Coral Instance Segmentation using YOLOv8 Models},
+  author={Hassanudin, Wahyu Maulana and Utomo, Victor Gayuh and Apriyanto, Riski},
+  journal={Sinkron: Jurnal dan Penelitian Teknik Informatika},
+  volume={8},
+  number={2},
+  pages={1047--1055},
+  year={2024},
+  doi={10.33395/sinkron.v8i2.13583}
+}
