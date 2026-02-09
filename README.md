@@ -16,7 +16,7 @@
 5.  **Porites**
 6.  **Turbinaria**
 
-## 📊 Comparative Analysis
+## Comparative Analysis
 [cite_start]Our study compared several YOLO architectures to determine the optimal balance between accuracy and resource demands[cite: 304, 312, 313]:
 
 | Model | Precision | Recall | $mAP_{50}$ | Params (M) | Training Time (Min) |
