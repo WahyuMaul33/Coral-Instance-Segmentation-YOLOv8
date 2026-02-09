@@ -4,8 +4,8 @@
 
 ## Key Technical Breakthroughs
 * **Top Performance**: The **YOLOv8m-Pp** (Medium with Preprocessing) model achieved a precision of **96.7%**, a recall of **95.9%**, and a mean Average Precision ($mAP_{50}$) of **98.2%**.
-* [cite_start]**Optimal Preprocessing**: Our research identified **Histogram Equalization (HE)** as the most effective technique for underwater environments, successfully balancing high accuracy with a training efficiency of **31.62 minutes**.
-* [cite_start]**Architectural Edge**: By utilizing YOLOv8's anchorless detection and CSPNet/PANet innovations, the system provides superior boundary delineation for complex reef structures.
+* **Optimal Preprocessing**: Our research identified **Histogram Equalization (HE)** as the most effective technique for underwater environments, successfully balancing high accuracy with a training efficiency of **31.62 minutes**.
+* **Architectural Edge**: By utilizing YOLOv8's anchorless detection and CSPNet/PANet innovations, the system provides superior boundary delineation for complex reef structures.
 
 ## Segmented Coral Species
 The model is optimized to identify and segment six distinct coral and marine categories:
