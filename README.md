@@ -12,6 +12,25 @@ Below is a comparison of the segmentation results showing the **Ground Truth**, 
 
 *The YOLOv8m-Pp model demonstrates superior object boundary delineation, especially in complex reef structures.*
 
+## Dataset & Preparation
+
+The dataset used in this research is specifically curated for the challenges of underwater computer vision in Indonesian coral reef environments.
+
+### Data Composition
+* **Core Set**: Consists of 755 high-quality coral reef images captured using a Remotely Operated Vehicle (ROV).
+* **Secondary Set**: Comprises 1,359 images generated through strategic data augmentation of the core set to improve model robustness.
+* **Annotations**: Each image features pixel-level masks for six species: *Favites, Feather-star, Goniastrea, Gorgonian, Porites,* and *Turbinaria*.
+
+### Preprocessing Pipeline
+To overcome underwater optical challenges like light scattering and color distortion, a specialized pipeline was implemented:
+* **Standardization**: All images were auto-oriented and resized to **640x640 pixels** to match YOLOv8 input requirements.
+* **Luminance Optimization**: Applied **Histogram Equalization (HE)**, which was empirically proven in this study to be the most effective technique for enhancing low-contrast regions.
+* **Data Splitting**: The dataset was partitioned into **Training (80%)**, **Validation (15%)**, and **Testing (5%)** sets to ensure rigorous evaluation.
+
+### Source
+The base dataset is publicly available on Roboflow:
+[Coral Segmentation Dataset](https://universe.roboflow.com/nuthan-varma-b5j2d/segmentation_corals)
+
 ## Key Technical Breakthroughs
 * **Top Performance**: The **YOLOv8m-Pp** (Medium with Preprocessing) model achieved a precision of **96.7%**, a recall of **95.9%**, and a mean Average Precision ($mAP_{50}$) of **98.2%**.
 * **Optimal Preprocessing**: Our research identified **Histogram Equalization (HE)** as the most effective technique for underwater environments, successfully balancing high accuracy with a training efficiency of **31.62 minutes**.
