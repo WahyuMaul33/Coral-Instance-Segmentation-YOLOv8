@@ -6,7 +6,7 @@
 Below is a comparison of the segmentation results showing the **Ground Truth**, the model without preprocessing (**YOLOv8m-Wp**), and our optimized model (**YOLOv8m-Pp**). 
 
 ![Coral Prediction Results]<div align="center">
-  <img src="output/coral_pred.png" width="700" alt="Coral Instance Segmentation Results">
+  <img src="output/coral_pred.png" width="400" alt="Coral Instance Segmentation Results">
   <p><i>Figure: Comparison of Ground Truth and YOLOv8m-Pp segmentation results.</i></p>
 </div>
 
