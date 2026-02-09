@@ -1,14 +1,14 @@
 # Fine-Grained Coral Instance Segmentation using YOLOv8
 
-[cite_start]This repository implements a high-precision instance segmentation system designed for the automated monitoring of coral reef ecosystems in Indonesia[cite: 6, 16]. [cite_start]Situated within the **Coral Triangle**, Indonesia's reefs are "marine rainforests" that support critical biodiversity but face significant threats from climate change and human activity[cite: 19, 20, 27].
+[This repository implements a high-precision instance segmentation system designed for the automated monitoring of coral reef ecosystems in Indonesia. Situated within the **Coral Triangle**, Indonesia's reefs are "marine rainforests" that support critical biodiversity but face significant threats from climate change and human activity.
 
 ## Key Technical Breakthroughs
-* [cite_start]**Top Performance**: The **YOLOv8m-Pp** (Medium with Preprocessing) model achieved a precision of **96.7%**, a recall of **95.9%**, and a mean Average Precision ($mAP_{50}$) of **98.2%**[cite: 15, 314].
-* [cite_start]**Optimal Preprocessing**: Our research identified **Histogram Equalization (HE)** as the most effective technique for underwater environments, successfully balancing high accuracy with a training efficiency of **31.62 minutes**[cite: 321, 322, 351].
-* [cite_start]**Architectural Edge**: By utilizing YOLOv8's anchorless detection and CSPNet/PANet innovations, the system provides superior boundary delineation for complex reef structures[cite: 151, 152, 302].
+* **Top Performance**: The **YOLOv8m-Pp** (Medium with Preprocessing) model achieved a precision of **96.7%**, a recall of **95.9%**, and a mean Average Precision ($mAP_{50}$) of **98.2%**.
+* [cite_start]**Optimal Preprocessing**: Our research identified **Histogram Equalization (HE)** as the most effective technique for underwater environments, successfully balancing high accuracy with a training efficiency of **31.62 minutes**.
+* [cite_start]**Architectural Edge**: By utilizing YOLOv8's anchorless detection and CSPNet/PANet innovations, the system provides superior boundary delineation for complex reef structures.
 
 ## Segmented Coral Species
-[cite_start]The model is optimized to identify and segment six distinct coral and marine categories[cite: 121]:
+The model is optimized to identify and segment six distinct coral and marine categories:
 1.  **Favites**
 2.  **Feather-star**
 3.  **Goniastrea**
@@ -17,7 +17,7 @@
 6.  **Turbinaria**
 
 ## Comparative Analysis
-[cite_start]Our study compared several YOLO architectures to determine the optimal balance between accuracy and resource demands[cite: 304, 312, 313]:
+Our study compared several YOLO architectures to determine the optimal balance between accuracy and resource demands:
 
 | Model | Precision | Recall | $mAP_{50}$ | Params (M) | Training Time (Min) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
