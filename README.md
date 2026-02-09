@@ -2,6 +2,13 @@
 
 [This repository implements a high-precision instance segmentation system designed for the automated monitoring of coral reef ecosystems in Indonesia. Situated within the **Coral Triangle**, Indonesia's reefs are "marine rainforests" that support critical biodiversity but face significant threats from climate change and human activity.
 
+## Prediction Results
+Below is a comparison of the segmentation results showing the **Ground Truth**, the model without preprocessing (**YOLOv8m-Wp**), and our optimized model (**YOLOv8m-Pp**). 
+
+![Coral Prediction Results](assets/coral_prediction.png)
+
+*The YOLOv8m-Pp model demonstrates superior object boundary delineation, especially in complex reef structures.*
+
 ## Key Technical Breakthroughs
 * **Top Performance**: The **YOLOv8m-Pp** (Medium with Preprocessing) model achieved a precision of **96.7%**, a recall of **95.9%**, and a mean Average Precision ($mAP_{50}$) of **98.2%**.
 * **Optimal Preprocessing**: Our research identified **Histogram Equalization (HE)** as the most effective technique for underwater environments, successfully balancing high accuracy with a training efficiency of **31.62 minutes**.
