@@ -38,7 +38,7 @@ Our study compared several YOLO architectures to determine the optimal balance b
 
 
 
-## 🛠️ Usage & Inference
+## Usage & Inference
 To run instance segmentation on underwater video data (e.g., `coraltest.mp4`), the following inference logic is utilized:
 
 ```python
