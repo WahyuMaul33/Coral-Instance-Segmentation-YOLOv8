@@ -26,6 +26,8 @@ Our study compared several YOLO architectures to determine the optimal balance b
 | YOLOv5-seg | 0.937 | 0.956 | 0.961 | 7.6 | 14.46 |
 | YOLOv8m-Wp | 0.953 | 0.840 | 0.884 | 27.2 | 19.74 |
 
+
+
 ## 🛠️ Usage & Inference
 To run instance segmentation on underwater video data (e.g., `coraltest.mp4`), the following inference logic is utilized:
 
@@ -42,6 +44,8 @@ results = model.predict(
     save=True,
     imgsz=640
 )
+
+```
 
 ## Citation
 
