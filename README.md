@@ -5,7 +5,7 @@
 ## Prediction Results
 Below is a comparison of the segmentation results showing the **Ground Truth**, the model without preprocessing (**YOLOv8m-Wp**), and our optimized model (**YOLOv8m-Pp**). 
 
-![Coral Prediction Results](output/coral_pred.jpg)
+![Coral Prediction Results](output/coral_pred.png)
 
 *The YOLOv8m-Pp model demonstrates superior object boundary delineation, especially in complex reef structures.*
 
